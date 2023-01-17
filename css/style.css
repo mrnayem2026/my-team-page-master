@@ -1,0 +1,127 @@
+/** <////> Google Foonts link is below <Start>  <\\\\>*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=PT+Serif:wght@400;700&family=Poppins:wght@600;700&display=swap');
+/** <////> Google Foonts link is below <End>  <\\\\>*/
+
+/*! <////>  All page css effect or Universal Selcetor <Start> <\\\\>  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*! <////>  All page css effect or Universal Selcetor <End> <\\\\>  */
+
+/*? Header section CSS Style Start  */
+header {
+    margin: 110px 240px 96px 240px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+
+    color: #000000;
+}
+
+.wwa {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: #000000;
+}
+
+.wat {
+    width: 439px;
+    height: 87px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #6d6767;
+}
+
+/*? Header section CSS Style End  */
+
+/*? Main section CSS Style Start  */
+main {
+    margin: 0 240px 115px 240px;
+    display: grid;
+    grid-template-areas:
+        "one  two three"
+        "onee twoo threee";
+}
+
+#one {
+    grid-area: one;
+}
+
+#two {
+    grid-area: onee;
+}
+
+#three {
+    grid-area: two;
+    padding-top: 100px;
+}
+
+#four {
+    grid-area: three;
+
+}
+
+#five {
+    grid-area: twoo;
+    padding-top: 100px;
+}
+
+#six {
+    grid-area: threee;
+}
+
+.person {
+    width: 305.21px;
+    height: 471px;
+    display: grid;
+    grid-template-areas: "one tow";
+}
+
+.person img {
+    width: 238px;
+    height: 341px;
+    grid-area: one;
+}
+
+.person p {
+    grid-area: tow;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    color: #000000;
+}
+
+.person h3 {
+    padding-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+    display: inline;
+}
+
+
+
+/*? Main section CSS Style End  */
