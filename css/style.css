@@ -59,7 +59,8 @@ main {
     display: grid;
     grid-template-areas:
         "one  two three"
-        "onee twoo threee";
+        "onee twoo threee"
+        "on3e tw3e thr3e";  
 }
 
 #one {
@@ -122,6 +123,81 @@ main {
     display: inline;
 }
 
-
-
 /*? Main section CSS Style End  */
+
+
+/*!Responsive for tablet and laptop Start */
+@media (min-width: 768px) and (max-width: 992px) {
+    header {
+        margin: 20px 40px 96px 40px;
+        flex-direction: column;
+    }
+
+    .header-content {
+        padding-top: 38px;
+    }
+
+    main {
+        margin: 0 40px 50px 40px;
+    }
+
+    #three {
+        grid-area: on3e;
+        padding-top:0;
+    }
+
+    #four {
+        padding-top: 100px;
+        grid-area:twoo;
+
+    }
+
+    #five {
+        grid-area: two;
+    }
+
+    #six {
+        padding-top: 100px;
+        grid-area:tw3e;
+    }
+
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    header {
+        margin: 20px 40px 96px 40px;
+        flex-direction: column;
+    }
+
+    .header-content {
+        padding-top: 38px;
+    }
+
+    main {
+        margin: 0 40px 50px 40px;
+    }
+
+    #three {
+        grid-area: on3e;
+        padding-top:0;
+    }
+
+    #four {
+        padding-top: 100px;
+        grid-area:twoo;
+
+    }
+
+    #five {
+        grid-area: two;
+    }
+
+    #six {
+        padding-top: 100px;
+        grid-area:tw3e;
+    }
+
+
+}
+
+
+/*!Responsive for tablet and laptop End */
